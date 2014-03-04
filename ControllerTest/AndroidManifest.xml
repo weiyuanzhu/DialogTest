@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="weiyuan.controllertest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="weiyuan.controllertest.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="weiyuan.controllertest.Result"
+            android:label="@string/title_activity_result"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="weiyuan.controllertest.Radio"
+            android:label="@string/title_activity_radio" >
+        </activity>
+        <activity
+            android:name="weiyuan.controllertest.ProgressBarTest"
+            android:label="@string/title_activity_progress_bar_test" >
+            
+        </activity>
+        <activity
+            android:name="weiyuan.controllertest.ListView"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="weiyuan.controllertest.ControllerTest"
+            android:label="@string/title_activity_controller_test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
